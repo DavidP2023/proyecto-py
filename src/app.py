@@ -145,7 +145,7 @@ ma = Marshmallow(app)
 # Registrar los métodos user_loader y request_loader
 #login_manager.user_loader(user_loader)
 #login_manager.request_loader(request_loader)
-
+#comentario de clase
 @app.route("/")
 def entrada():  
     crea_tablas_DB()
